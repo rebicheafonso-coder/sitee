@@ -1,0 +1,67 @@
+body { 
+    background-color: rgb(230, 240, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    padding: 15px;
+}
+
+/* Correção da pseudo-classe hover */
+nav a:hover { 
+    color: yellow;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    margin-top: 30px;
+} /* Corrigido de { para } */
+
+h2 {
+    text-align: center;
+    color: rgb(30, 30, 30); /* Corrigido parêntese inicial */
+}
+
+/* Corrigido de ( para { */
+.galeria-videos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+/* Corrigidos os dois-pontos extras e a palavra 'colid' */
+.bloco-video {
+    width: 420px;
+    background-color: white;
+    border: 3px solid darkblue;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Removidas as barras e adicionado ponto e vírgula */
+.bloco-video video {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Adicionado o hífen em font-size */
+.bloco-video p {
+    font-size: 18px;
+}
+
+/* Removido o espaço em 15px */
+footer {
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding: 15px; 
+    margin-top: 30px;
+}
